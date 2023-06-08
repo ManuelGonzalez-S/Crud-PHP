@@ -1,0 +1,89 @@
+main{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+#enlaceBotonCrear{
+    align-self: center;
+
+    width: 40%;
+
+    padding: 5px;
+}
+
+#botonCrear{
+
+    transition: .5s;
+
+    border: none;
+    
+    padding: 5px;
+
+    width: 100%;
+
+    background-color: darkblue;
+    color: white;
+
+    border-radius: 10px;
+}
+
+#botonCrear:hover{
+
+    transition: .5s;
+
+    scale: 1.1;
+
+    cursor: pointer;
+
+}
+
+main table{
+    width: 90%;
+
+    border: 3px solid black;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    border-collapse: separate;
+    border-spacing: 0 10px;
+
+    align-self: center;
+}
+
+thead th{
+    text-align: center;
+    text-decoration: underline;
+}
+
+tbody tr td{
+    transition: 0.5s;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+tbody tr:nth-child(2n){
+    background-color: lightgrey;
+}
+
+tbody tr:nth-child(2n-1){
+    background-color: lightcyan;
+}
+
+tbody tr:hover td{
+    backdrop-filter: brightness(0.9);
+
+    transition: 0.5s;
+}
+
+.botonOpciones{
+    background-color: violet;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+}
